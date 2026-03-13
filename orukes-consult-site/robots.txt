@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Block 404 from being crawled
+Disallow: /404.html
+
+# Block nav helper script
+Disallow: /nav_footer.sh
+
+Sitemap: https://orukesconsult.com/sitemap.xml
+
+# Crawl-delay (be kind to server)
+Crawl-delay: 1
